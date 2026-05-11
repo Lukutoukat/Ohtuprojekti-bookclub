@@ -1,0 +1,68 @@
+Ekan sprintin muistiinpanot
+
+
+edellisen sovelluksen toiminta:
+- ehdotus vaihe ja äänestysvaihe
+- ois kiva jos sovellus tukis eri tapoja valita ja äänestää kirja
+- sovellus antaa kirjan, joka on saanut eniten ääniä (julkaistaan samana päivänä kun tapaaminen)
+- kirjoja ei voi ehdottaa samaan aikaan kun äänestää, eli vaiheet erilliset
+- äänestysmetodin voi valita kun uusi kirjan ehdotussykli alkaa
+- metodeja: binääri valinta, parhausjärjestys, nyt pisteet siten että: haluan lukea, 
+ voin lukea, en halua lukea -> haluttiin maksimoida lukijoiden osallistumismäärä
+      -> voitas ite optimoida paras tai parhaita äänestysmetodeita
+          -> ois hyvä et niistä ois sit selitykset
+
+
+- tuen lisääminen vanhalle sovellukselle, jota voi sitten parannella
+- erilaiset kentät kirjan tiedoille esim. julkaisuvuosi, kirjailija, kirjan nimi, 
+  sivumäärä, lisä infoboxi
+- ennen ollu helmet linkit käytössä, ois kiva jos ois tuki saada tietoja helmetistä suoraan
+- vois hakea kirjan nimellä, valita oikean, ja tiedot täyttyis automaattisesti sovellukseen
+- tärkeetä saada saatavuustiedot
+- ois kiva jos sovellus ois muunneltavissa, silleen et se on konfiguroitavissa
+- kuinka monta kirjaa voi ehdottaa yms. 
+
+
+- olisi kiva, että käyttäjät voivat itse konfiguroida oman kirjakerhonsa toiminnot
+- linkki alkuperäseen: https://github.com/ShootingStar91/toska-book-club
+- lisenssiksi halutaan MIT
+- oma organisaatio
+- laitetaan tiken openshift studies.cs.helsinki.fi
+- github actions pipeline
+- ohjeet löytyy miten laittaa tiken openshift juttuun
+
+nolla sprintin tavotteet:
+
+- päätetään tech stack
+- suositellaan react nodea, ois relevantti fullstackin kannalta ja työelämän myös
+- kannattaa käyttää sql, postgres
+- miettikää arkkitehtuuria
+- ottakaa huomioon monen instanssin luominen, miten toimii jos paljon eri kirjakerhoja
+- eri roolit?
+- pystyttää ihan perus sivusto, ku menee aikaa uusien opiskeluun
+
+pakollisia ominaisuuksia:
+- pystyy suosittelemaan kirjoja
+- monta kirjakerhoja
+- pystyy kirjautumaan sisään
+- pitää pystyä kutsumaan muita jäseniä
+- kirjan valinta äänestys etc
+- pystyy määrää päivän millon kyseinen sykli valmis
+- jos luo kirjakerhon tulee adminiks
+- ei oo sinäänsä väliä miten kirjautuminen toimii -> ei hy:n sisäsiä
+- sähköpostikutsu, jolla toiset käyttäjät voivat liittyä klubiin
+- voidaan ite pohtia miten kutsuminen toimii
+- myöhemmin bännäämisen mahdollinen
+- lisäfeatureista tärkein olis helmet integraatio, jos toimii
+   - pitää tutkia toimiiko helmet
+- ois kiva et jotkut kirjan tiedot ois pakollisia ja jotkut valinnaisia
+- tärkeä et toimii puhelimella ja näyttää siin kivalta
+
+- ois hyvä jos ai käy läpi esim. pull requestit
+- ottakaa selvää miten dokumentoida ai:n käyttö
+- dokumentoida sen verran, että joku voisi jatkaa projektia
+- miten ajaa testit, miten saada käyntiin yms. ois hyvä dokumentoida
+- ensimmäinen tapaaminen 18.5 klo 13
+
+
+
