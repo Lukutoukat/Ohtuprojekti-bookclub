@@ -1,0 +1,7 @@
+dokerhubiin yhteinen käyttäjä?
+onko orm sequalize tai prism hyvä?
+onko tämänhetkinen tilanne hyvä? lukuunottamatta typescript käyttöä
+se korjataan kyllä ja on tiedossa
+mitä kaikkea ois hyvä olla siel github workflowssa
+onko tarpeeks jos vaan build ja pushhaa docker imageen
+onko jotain mitä meijän pitäis tehä ennen openshiftiin laittamista
