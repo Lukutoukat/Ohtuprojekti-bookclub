@@ -1,0 +1,27 @@
+Start:
+- Lisätään kuvaukset taskeihin.
+- Jaetaan taskeja monipuolisemmin: kaikki pääsevät tekemään tekniikkaa, backendia, frontendia jne. Kaikkien pitää itsekin osata sanoa mitä haluavat tehdä.
+- Testien tekeminen ennen kuin pushataan mainiin.
+- Pidetään commitit pienenä.
+- Katsotaan, laitetaanko testaus omaan branchiin
+- Keskitytään user storyjen loppuunsaattamiseen
+- Lisää dokumentointia
+
+Stop:
+- Ei harhauduta asioista palalvereissa
+- Ei jätetä asioita kesken, thedään yksi asia kerrallaan loppuun
+
+Continue:
+- Yhdessä tekeminen on koettu toimivaksi
+- Dailyjen taso on ollut vaihtelevaa, viime viikon loppupuolella saatiin dailyt toimimaan
+- Työnjakoa saatiin tehtyä viime viikon lopulla hyvin
+- Tärkeä, että kaikki ymmärtävät koko projektin
+- Pidetään huoli, että ei anneta aina samanlaisia tehtäviä samoille ihmiselle
+- Kommunikaatio on toiminut hyvin, jatketaan samaan malliin
+
+Seuraavissa retroissa äänestetään lapuista ja käydään ne läpi sen perusteella, kuinka monta ääntä ne ovat saaneet.
+Todettiin, että edellisessä retrossa ei päästy puhumaan kaikista asioista, joten jouduimme palaamaan niihin uudestaan useaan kertaan.
+Todettiin, että parempi käyttää retroon vähän enemmän aikaa, niin että saadaan asiat huolella käytyä läpi.
+
+Yritetään jatkossa informoida paremmin esim. sairaana olevia viestillä tai pitää huoli, että dokumentointi on todella selkeää.
+Otetaan huomioon työnjaossa, jos joku on yllättäen poissa.
