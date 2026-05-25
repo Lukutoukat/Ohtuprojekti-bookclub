@@ -1,0 +1,51 @@
+Mitä olemme tehneet:
+- Sprint 1:een oli valittu rekisteröityminen ja kirjautuminen
+	- Aloitettu rekisteröityminen ja kirjautuminen, testaaminen puuttuu ja prismaongelmia
+	- Ongelmia Openshiftin kanssa
+- Käyttöliittymän ulkoasua
+	- Priorisoitu mobiilinäkymää
+	- Suunniteltu valkotaululle, ei suunnitteluohjelmalla
+	
+Demo:
+- Demottiin ulkoasua ja kirjan lisäämistä
+- Selitimme suunnittelemamme ui-rakenteen, katso ui-kansio
+
+Mitä seuraavaan sprinttiin:
+- Ykkösprioriteetti OpenShift
+	- Aika varattu teknisen ohjaajan kanssa
+	- Docker container olemassa, tarkistamme vielä CI/CD -putken
+- Ehdotimme, että toteutamme seuraavssa sprintissä: sisään- ja uloskirjautumisen ja rekisteröitymisen 
+- Alempana prioriteettina kirjakerhon luominen ja kirjakerhoon liittyminen
+	- Yksinkertainen liittymiskoodi, 5 kirjainta
+	- Aluksi toteutetaan ilman käyttäjäooleja: esim. liittymiskoodi näkyy kaikille kirjakerhoon kuuluville
+	- Käyttäjäroolien huomioon ottaminen myöhemmin, ei tässä sprintissä
+
+Kysymyksiä ja kommentteja:
+- Asiakas pyysi recapia edellisestä asiakaspalaverista
+	- softa tallentaa ehdotetut kirjat
+	- lukuun valittu kirja poistuu suosituksista, ei tietokannasta
+	- kirjahistoria
+	- Helmet api
+	- kutsukoodi kirjakerhoon (ei erillisesti sovelluksesta lähetettäviä kutsuja, vaan kutsukoodi jaetaan sovelluksen ulkopuolella)
+- Asiakkaalta ei aluksi kommentteja ulkoasuun, näytti hänen mielstään hyvältä ja kirjakerhomaiselta
+	- Muu kuin hyökkäävän sininen väri primary action: ehdotettiin kultaista, sinistä tai vihreää pastelliväriä
+- Asiakas ehdotti, että kirjakerhot voivat valita itse esim. väriteemaa tai darkmodea
+- Asiakas ei uskonut että eri kielet ovat välttämättä tarpeellisia, mutta oli sitä mieltä, että se kannattaa toteuttaa (hyvää harjoitusta ja vaikea toteuttaa myöhemmin, jos tarvitaankin)
+- Asiakas ehdotti, että alamme työstämään syklejä, kun kirjakerhon luominen ja liittyminen on valmis
+	- Yleisin äänestysalgoritmi: haluan lukea (3p)/voin lukea (2p)/en halua lukea (0p) jokaiselle ehdotukselle
+	- Toteutetaan ensin edellä mainitty änestysalgoritmi, mutta pidetään myös mielessä että sovelluksen pitää tukea useita eri äänestystapoja
+- Asiakas toivoi että tulevaisuudessa toteutamme muistutukset pari päivää ennen vaiheen loppumista sähköpostiin tai slackiin, ryhmä voisi myös itse konfiguroida miten muistutuksia lähetetään
+- Tulevaisuudessa liittymiskoodille aikaraja tai admin voi nollata
+- Asiakkaan kommentit suunnitellusta käyttöliittymästä;
+	-Lista kirjakerhoja joihin kuuluu: suurin osa kuuluu vain yhteen kirjakerhoon, eli defaultina sovellus voisi ohjata suoraan aktiiviseen kirjakerhoon (tai käyttäjä voi asettaa defaultin)
+- Asiakas toivoi, että sovellus saataisiin demokäyttöön
+	- Todettiin, että ei ole realistista, koska tämä on intensiiviprojekti ja syklien aikataulu ei osu sopivasti
+- Asiakas ehdotti projektinhallintataulukkoa, esim. excel. Lupasimme toteuttaa tämän seuraavaan tapaamiseen.
+	- Riveinä kaikki sprintit
+	- Mitä sillä viikolla tehtiin: user storyt
+	- Kumpi asiakkaista on ollut tapaamisessa
+- Todettiin, että sivumäärän ei tarvitsisi olla pakollinen
+- Todettiin, että parempi jos genret voi itse kirjoittaa (ei kovakoodattu)
+	- Tätä voi jatkojalostaa esim. filtteröintiä varten ja tukemaan useampaa genren lisäämistä yhdelle kirjalle
+- Projektin tekeminen parhaimmillaan on kivaa ja palkitsevaa, mutta ongelmatilanteet ovat turhauttavia. Ongelmia on ollut paljon, mutta olemme saaneet ne yhdessä ratkottua.
+- Seuraava palaveri ensi viikon maanantai 16:00, lähetämme kalenterikutsun
