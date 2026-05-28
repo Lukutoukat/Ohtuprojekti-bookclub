@@ -1,0 +1,10 @@
+lisää bookclub tauluun päivämäärä/kellonaika
+lisää myös siihen invite code -> tee uniikiksi
+
+luo sykli/iteraatiotaulu
+katotaan vielä kenttiä kun tarve
+
+book proposed -> viittaa iteraatioon
+
+kirja tauluun kirjan lisääjän käyttäjä
+
