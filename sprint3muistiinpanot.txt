@@ -87,9 +87,9 @@
    * Tulosten näyttäminen
    * Voittajan valinta
 
-2. Salasanan palautus
+2. Kirjakerhoon liittyminen
 
-3. Kirjakerhoon liittyminen
+3. Salasanan palautus
 
 4. Sähköpostien lähettäminen
 
