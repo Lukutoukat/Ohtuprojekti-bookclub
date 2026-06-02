@@ -69,12 +69,12 @@
 ### Korkea prioriteetti
 
 * Syklien teko
+* Kirjakerhoon liittyminen
 
 ### Myöhemmin
 
 * Salasanan palautus
 * Sähköpostin lähetys
-* Kirjakerhoon liittyminen
 
 ---
 
