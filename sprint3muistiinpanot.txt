@@ -80,14 +80,12 @@
 
 # Tärkeimmät prioriteetit
 
-1. Syklit
+1. Syklit/Kirjakerhoon liittyminen
 
    * Ehdotusten tekeminen
    * Äänestäminen
    * Tulosten näyttäminen
    * Voittajan valinta
-
-2. Kirjakerhoon liittyminen
 
 3. Salasanan palautus
 
