@@ -1,0 +1,130 @@
+# Asiakaspalaveri – Muistiinpanot
+
+## Toteutettu tähän mennessä
+
+### Perustoiminnot
+
+* Sisäänkirjautuminen
+* Uloskirjautuminen
+* OpenShift toimii (vanha versio käytössä)
+* Kirjakerhon luominen
+* Kirjan lisääminen kirjakerhoon
+* Validoinnit
+* Logo
+
+---
+
+# Demon palaute
+
+## Käyttöliittymä ja navigaatio
+
+* Asiakkaan näkökulmasta mobiilikäyttö on tärkein, mutta sovelluksen tulee näyttää hyvältä myös desktopilla.
+* Mobile-first -lähestymistapaa kannattaa noudattaa.
+* Home-sivulta pitäisi päästä helposti kirjakerhojen listaukseen.
+* "Create" -toiminto näkyviin Home-sivulle.
+* "Current Books" -näkymän vertailu Books-sivulla ei toimi hyvin nykyisellään.
+* Home-sivulle voisi keskittää kirjakerhoihin liittyvät asetukset ja hallintatoiminnot.
+* Sidebar voidaan pitää samanlaisena kuin mobiilissa. Desktopilla voidaan harkita komponenttien näyttämistä vierekkäin.
+
+## Kirjat
+
+* Uusin kirja näkyviin ylimmäksi.
+* Kirjoille näkyviin vähintään kuukausi/vuosi.
+* Tallennuskieleksi riittää toistaiseksi yksi kieli.
+* "Add Books" -toiminnon yhteydessä pitäisi olla selkeää, mihin kirja lisätään.
+* Tallennettujen kirjojen näkymässä voisi käyttää pudotusvalikkoa (dropdown), jossa kirjan nimi korvaa laajemmat kirjatiedot.
+* Jos käyttäjä on jo lisännyt kirjan, käyttöliittymä voisi reagoida siihen (esim. pienempi tai passiivinen "Add Book" -painike).
+* Current Book -tietoihin tarvitaan muokkausmahdollisuus.
+
+## Ulkoasu
+
+* Logo sai positiivista palautetta.
+* Eri käyttäjillä on erilaiset näytöt, joten värit kannattaa huomioida. Kaikkien näyttöjen optimointia ei kuitenkaan vaadita.
+* Tekstimäärää voisi vähentää ja käyttöliittymää yksinkertaistaa.
+
+## Virheviestit ja käytettävyys
+
+* Virheviestit kuntoon.
+* Käyttäjän tulisi hypätä automaattisesti virheisiin tai virheiden tulisi näkyä selkeämmin.
+* Kommenttikentälle maksimipituus (esim. 10 000–20 000 merkkiä).
+* Scrollaukseen liittyvät ongelmat tiedossa ja korjattava.
+
+---
+
+# Seuraava sprintti
+
+## Syklit ja äänestys
+
+* Äänestys osaksi sykliä.
+* Määriteltävä, kuinka monta ehdotusta käyttäjä voi lisätä.
+* Syklin muokkaaminen oltava mahdollista.
+* Kalenterivalidointi:
+
+  * Ei voi valita menneitä päivämääriä.
+* Ei tarvetta oletuspäivämäärille.
+* Syklissä käytetään kahta päivämäärää, jotka käyttäjä määrittää.
+
+## Käyttäjähallinta
+
+### Korkea prioriteetti
+
+* Syklien teko
+
+### Myöhemmin
+
+* Salasanan palautus
+* Sähköpostin lähetys
+* Kirjakerhoon liittyminen
+
+---
+
+# Tärkeimmät prioriteetit
+
+1. Syklit
+
+   * Ehdotusten tekeminen
+   * Äänestäminen
+   * Tulosten näyttäminen
+   * Voittajan valinta
+
+2. Salasanan palautus
+
+3. Kirjakerhoon liittyminen
+
+4. Sähköpostien lähettäminen
+
+---
+
+# Kysymykset ja kommentit
+
+## Sähköposti
+
+* Erillistä sähköpostiosoitteen validointia ei koeta tarpeelliseksi.
+* Vaihtoehtona voidaan pyytää sähköpostiosoite syötettäväksi kahdesti.
+
+## Käyttöliittymä
+
+* Sovellus näyttää siistiltä.
+* Sidebar-ratkaisu voidaan pitää nykyisenä.
+
+---
+
+# User Story -ehdotukset
+
+## Syklit (laaja kokonaisuus)
+
+Käyttäjänä haluan:
+
+* ehdottaa kirjoja syklille
+* äänestää ehdotettuja kirjoja
+* nähdä äänestystulokset
+* nähdä voittaneen kirjan
+
+Tämä voidaan toteuttaa yhtenä laajana user storyna, joka myöhemmin pilkotaan pienempiin tehtäviin.
+
+## Tulosnäkymä
+
+* Näytetään pisteet.
+* Näytetään järjestys.
+* Voittaja korostetaan visuaalisesti.
+* Tasatilanteessa voittaja valitaan UUID:n perusteella.
