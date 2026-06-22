@@ -1,15 +1,15 @@
-# Muistiinpanot maanantai 22.6 asiakaspalaverista
+# Muistiinpanot maanantain 22.6. asiakaspalaverista
 
 ## Toteutettu tässä sprintissä
-  - Openshift eduroamin ulkopuolella myös
+  - OpenShift myös eduroamin ulkopuolella
   - Tulosnäkymä saatu valmiiksi
-  - 1,2,3 äännestetyt highightattuna, kultainen, hopea ja pronssi
-  - Edellisten syklejen historiaa näyy kirjakerhossa
-  - Paljon muutoksia ulkonäköön, paddingit, napit, tekstit, vierekkäin
-  - Validointia, paljon mutta puuttu osaksi
+  - 1., 2. ja 3. äänestetyt highlightattuina: kultainen, hopea ja pronssi
+  - Edellisten syklien historiaa näkyy kirjakerhossa
+  - Paljon muutoksia ulkonäköön: paddingit, napit, tekstit vierekkäin
+  - Validointia, paljon mutta puuttuu osaksi
   - Kirjakerhon poistonappi asetuksissa
   - Prettify käyttöön
-  - Github oikeidet ja dockerhub tili -> openshift
+  - GitHub-oikeudet ja Docker Hub -tili -> OpenShift
   - Paranneltu dokumentaatiota
   - Valmistelu ja dokumentaatio pitäisi vielä saada valmiiksi
 
@@ -18,12 +18,13 @@
   - Ydintoiminnallisuus toimii
   - Näyttää hyvältä
 
+
 ## Seuraavaksi
-  - Huomenna aamulla demo video, Keskiviikkopäivä jäljellä
-  - Api tarkastaa ettei saa mitään liika nakyväksi
-  - Roskakori nappi pois näkyvistä ja edit nappi booklist jos ei oma
-  - Docker hub tili antaa, salaisuuksia jos on, luovuttaa tulevassa kirjakerho tapaamisessa
-  - Hyvä että pyörii jossakin, seuraavalle jatkokehitysryhmälle jää production palveluun laittaminen
+  - Huomenna aamulla demovideo, keskiviikkopäivä jäljellä
+  - API tarkastaa, ettei saa mitään liikaa näkyväksi
+  - Roskakorinappi pois näkyvistä ja edit-nappi booklistissä, jos ei oma
+  - Docker Hub -tili antaa, salaisuuksia jos on, luovuttaa tulevassa kirjakerhotapaamisessa
+  - Hyvä, että pyörii jossakin, seuraavalle jatkokehitysryhmälle jää production-palveluun laittaminen
 
 
-## Tsemppia demoon, hijota loppuun, hyvä työ ja toimivaa!
+## Tsemppiä demoon, hiotaan loppuun, hyvää työtä ja toimivaa!
