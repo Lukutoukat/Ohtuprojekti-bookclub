@@ -1,5 +1,5 @@
 # Ohtuprojekti-bookclub
-Used technologies: node, react, postgresql, css
+Used technologies: node, react, postgresql, css, docker, jest, vitest, typescript
 
 ## Definition of Done
 
