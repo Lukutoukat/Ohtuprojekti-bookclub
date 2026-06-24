@@ -8,5 +8,3 @@ A functionality is defined as done when:
 - it is cleanly written
 - all tests pass
 - properly documented
-
-time thing: https://study.cs.helsinki.fi/projekti/timelogs
