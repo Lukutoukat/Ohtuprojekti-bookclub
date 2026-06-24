@@ -1,7 +1,5 @@
 # Ohtuprojekti-bookclub summer 2026
-This repository contains miscellaneous documentation written during the project. Contains mostly notes from client meetings and architecture reviews. There is also some pictures about UI desing plannings and sprint planning/ daily to-do lists on whiteboard.
-
-Used technologies: node, react, postgresql, css, docker, jest, vitest, typescript
+This repository contains miscellaneous documentation written during the project. Contains mostly notes from client meetings and architecture reviews. There is also some pictures about UI desing plannings and sprint planning/ daily to-do lists done on whiteboard.
 
 ## Definition of Done
 
