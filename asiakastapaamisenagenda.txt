@@ -1,0 +1,37 @@
+mitä tehty?
+
+- kirja näkyy vain sen luojalle
+- error ja varmistusviestit siistitty
+- käyttäjänimi näkyy jossakin
+- copy pasten korjaus
+- token expires -> täl hetkel 30 päivää, siihen ideoita?
+- sisään ja uloskirjautumisen korjaus, ennen pääs sisään
+  vaikka käyttäjiä ei oo koska kirjautuminen varmistettii vaa local storages
+- invite koodi kopioitu viestin korjaus
+- äänestys vaihe toteutettu
+- result vaihe toteutettu
+- kerhon poistonappi korjattu
+- kirjaformin korjaus, limitit ja numero jutut vuoteen ja sivuun
+- lisätty front ja backend testejä -> tän hetkinen coverage 48%, toiveita?
+- kirjan poistonapin korjaus
+- dokumentointi alotettu
+- navigaatio napin lisäys
+
+mitä seuraavaks?
+ajateltiin:
+- dokumentaation lisäys
+- front ongelmien korjaus:
+    - komponentit vierekkäin
+    - book formin tekstikenttien tasaisuus
+    - nappien sijainti
+    - alakohta
+- helmet integraatio
+- syklien historia
+- openshift -> et toimis eduroamin ulkopuolella
+- erillisen sähköpostin luonti docker hubia varten
+- salasanan palautus jos on oikeesti paljon aikaa
+
+noi ois vrm tarpeeks ku projekti tuntuu vaativan yleistä siistimistä ja ois kiva 
+et se ois kokonaisuudessaa kunnossa, jos tähän tulee joku toinen projekti
+ens syksyllä ja ihan vaan muutenkin :3
+
